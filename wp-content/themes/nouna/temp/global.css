@@ -1,0 +1,31 @@
+/*==============================================*/
+/*===> globale                                 =*/
+/*==============================================*/
+	body{background:url(../img/fond.jpg) center top no-repeat;background-size: cover;font-family:'OpenSansLight', arial, sans-serif;color:#fff;font-size:16px;}
+	html,body{height:100%;}
+	.FLeft{float:left;}
+	.FRight{float:right;}
+	.clear{clear:both;}
+/*==============================================*/
+/*===> squelette                               =*/
+/*==============================================*/
+	.main{max-width:980px;padding:0 20px;margin:0 auto;text-align:center;}
+	.content{max-width:98%;display:inline-block;vertical-align:middle;}
+	.centrage{max-width:1px;height:100%;display:inline-block;vertical-align:middle;}
+
+	.global, .main{height:100%;}
+/*==============================================*/
+/*===> contenu                                 =*/
+/*==============================================*/
+
+	.visuel{max-width:170px;width:40%;margin:0 0 10px;}
+	.titre{font-weight:normal;font-size:30px;line-height:36px;padding:0 0 16px;}
+		.titre strong{font-weight:normal;display:block;}
+	p{font-size:16px;line-height:36px;padding:0 0 16px;}
+	.extra{font-size:30px;}
+	
+@media screen and (max-width: 500px){
+    .titre{font-size:24px;}
+	p{font-size:13px;}
+	.extra{font-size:24px;}
+}

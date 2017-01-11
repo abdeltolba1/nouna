@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('../fonts/OpenSansLight.eot?#iefix') format('../fonts/embedded-opentype'),
+  url('../fonts/OpenSansLight.woff') format('../fonts/woff'),
+  url('../fonts/OpenSansLight.ttf')  format('../fonts/truetype'),
+  url('../fonts/OpenSansLight.svg#OpenSansLight') format('../fonts/svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.eot?#iefix') format('../fonts/embedded-opentype'),
+  url('../fonts/OpenSans.woff') format('../fonts/woff'),
+  url('../fonts/OpenSans.ttf')  format('../fonts/truetype'),
+  url('../fonts/OpenSans.svg#OpenSans') format('../fonts/svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url('../fonts/OpenSansBold.eot?#iefix') format('../fonts/embedded-opentype'),
+  url('../fonts/OpenSansBold.woff') format('../fonts/woff'),
+  url('../fonts/OpenSansBold.ttf')  format('../fonts/truetype'),
+  url('../fonts/OpenSansBold.svg#OpenSansBold') format('../fonts/svg');
+  font-weight: normal;
+  font-style: normal;
+}
