@@ -386,48 +386,6 @@ add_shortcode('nouna_shortcode_demo_2', 'nouna_shortcode_demo_2'); // Place [nou
 // [nouna_shortcode_demo] [nouna_shortcode_demo_2] Here's the page title! [/nouna_shortcode_demo_2] [/nouna_shortcode_demo]
 
 /*------------------------------------*\
-	Custom Post Types
-\*------------------------------------*/
-
-// Create 1 Custom Post type for a Demo, called nouna-Blank
-function create_post_type_nouna()
-{
-    register_taxonomy_for_object_type('category', 'nouna-blank'); // Register Taxonomies for Category
-    register_taxonomy_for_object_type('post_tag', 'nouna-blank');
-    register_post_type('nouna-blank', // Register Custom Post Type
-        array(
-        'labels' => array(
-            'name' => __('nouna Blank Custom Post', 'nouna'), // Rename these to suit
-            'singular_name' => __('nouna Blank Custom Post', 'nouna'),
-            'add_new' => __('Add New', 'nouna'),
-            'add_new_item' => __('Add New nouna Blank Custom Post', 'nouna'),
-            'edit' => __('Edit', 'nouna'),
-            'edit_item' => __('Edit nouna Blank Custom Post', 'nouna'),
-            'new_item' => __('New nouna Blank Custom Post', 'nouna'),
-            'view' => __('View nouna Blank Custom Post', 'nouna'),
-            'view_item' => __('View nouna Blank Custom Post', 'nouna'),
-            'search_items' => __('Search nouna Blank Custom Post', 'nouna'),
-            'not_found' => __('No nouna Blank Custom Posts found', 'nouna'),
-            'not_found_in_trash' => __('No nouna Blank Custom Posts found in Trash', 'nouna')
-        ),
-        'public' => true,
-        'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
-        'has_archive' => true,
-        'supports' => array(
-            'title',
-            'editor',
-            'excerpt',
-            'thumbnail'
-        ), // Go to Dashboard Custom nouna Blank post for supports
-        'can_export' => true, // Allows export in Tools > Export
-        'taxonomies' => array(
-            'post_tag',
-            'category'
-        ) // Add Category and Post Tags support
-    ));
-}
-
-/*------------------------------------*\
 	ShortCode Functions
 \*------------------------------------*/
 

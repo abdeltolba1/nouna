@@ -3,7 +3,7 @@
  * Template Name: Home Page
  */
 
-// A static comming soon page
+// A static 'comming soon' page
 ?>
 <!DOCTYPE html> 
 <html lang="fr" xml:lang="fr">
@@ -31,7 +31,7 @@
 	<div class="global">
 		<div class="main">
 			<div class="content">
-				<img class="visuel" src="img/nouna.png" alt="" />
+				<img class="visuel" src="<?php echo get_template_directory_uri(); ?>/img/nouna.png" alt="" />
 				<h1 class="titre">Hello World! <strong>Welcome to nouna.xyz</strong></h1>
 				<p>Soon in this website you’ll get to know me and I’ll get to share with you my work, ideas and learnings in the coolest way I know.</p>
 				<p class="extra">Stay tuned!</p>
